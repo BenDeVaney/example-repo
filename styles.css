@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+}
+
+.circle{
+    position: absolute;
+}
+
+button {
+    position: fixed;
+    z-index: 111000;
+    top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: white solid 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#circrmv {
+    left: 10px;
+}
+
+#regenBtn {
+    left: 200px;
+}
+
+#continuousBtn {
+    left: 400px;
+}
+
+
